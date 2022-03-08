@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+
+/*Declarar variável dentro do CSS */
+:root{
+    /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
+    --verde:#117050;
+
+}
+*{
+    /*Resetar os estilos padrão do HTML*/
+    margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Open Sans','Sans-serif';
+
+}
+
+header .line{
+    background-color: var(--verde);
+    height: 10px;
+}
+
