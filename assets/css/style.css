@@ -208,3 +208,56 @@ header .line{
     background-position: center;
 
 }
+
+/*Estilização da área 3*/
+
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1140px;
+    margin: auto;
+
+
+}
+.area3--content{
+    padding: 80px;
+    background-image: url('../images/bg2.jpg');
+    background-position: center;
+    background-size: cover; 
+    background-position: left;   
+
+    
+}
+.area3--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area3--img1{
+    background-image: url('../images/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/*Estilização da área 4*/
+
+.area4{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    max-width: 1140px;
+    margin: auto;
+
+
+}
+.area4--content{
+    padding: 80px;    
+}
+.area4--text{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1{
+    background-image: url('../images/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
