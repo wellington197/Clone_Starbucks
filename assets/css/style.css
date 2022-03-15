@@ -224,9 +224,8 @@ header .line{
     background-image: url('../images/bg2.jpg');
     background-position: center;
     background-size: cover; 
-    background-position: left;   
-
-    
+    background-position: left; 
+   
 }
 .area3--text{
     margin-bottom: 50px;
@@ -243,13 +242,15 @@ header .line{
 .area4{
     display: grid;
     grid-template-columns: 500px 1fr;
+    background-color: #e8e9ee;
     max-width: 1140px;
     margin: auto;
 
-
 }
 .area4--content{
-    padding: 80px;    
+    padding: 80px;  
+    max-width: 1140px;
+    margin: auto;  
 }
 .area4--text{
     margin-bottom: 50px;
@@ -257,7 +258,7 @@ header .line{
 }
 
 .area4--img1{
-    background-image: url('../images/f5.jpg');
+    background-image: url('../images/bg3.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
