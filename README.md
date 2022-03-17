@@ -17,7 +17,6 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 <img src="https://img.shields.io/static/v1?label=visualstudio&message=plataforma&color=blue&style=for-the-badge&logo=VISUALSTUDIO"/>
 <img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
 
-
 </br>
 <div align="center">
     <a href="https://project-awax-web.netlify.app/src/home.html" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
