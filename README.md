@@ -28,7 +28,6 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 - Criação do clone da LANDING PAGE;
 - Aplicação de conceitos em FLEXBOX;
 - Estilização em HTML5 e CSS3;
-- Estilização em HTML5 e CSS3;
 - Subindo projeto para GitHub;
 - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
 
