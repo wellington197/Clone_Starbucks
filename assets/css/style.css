@@ -288,7 +288,11 @@ footer{
 }
 
 /*Largura Tablet*/
-@media (min-width:768px) {
+@media (min-width:426px) and (max-width:768px) {
+    .container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
     .area1{
         grid-template-columns: 3fr 2fr;
     }
@@ -297,11 +301,47 @@ footer{
     }
 }
 
-@media (max-width:1140px) {
+
+/*Largura celular*/
+@media (max-width:425px) {
 
     .container{
             padding-right: 20px;
             padding-left: 20px;
         }
-    
+    .header--search input{
+        max-width: 80px;
     }
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2{
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+
+    .banner--images img{
+        width: 70px;
+        height: 70px;
+        border: 6px solid var(--verde);
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .area1,.area2,.area3,.area4{
+        grid-template-columns: 1fr;
+    }
+    .area1--content,.area2--content,.area3--content,.area4--content{
+        padding: 40px;
+    }
+
+    .area5{
+        height: 200px;
+    }
+    footer{
+        font-size: 20px;
+        padding: 40px 20px;
+    }
+}
