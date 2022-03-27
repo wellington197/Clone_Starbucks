@@ -5,37 +5,35 @@
 Neste projeto, será replicado a intareface do site da Starbucks utilizando tecnologias e conseitos como HTML5, CSS3, Flexbox, Grid. Também será estruturado um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e Grid a favor da aplicação.
 
 Também será aplicado uma Pipeline de integração continua e testes da aplicação.
-<!--Markdown do travis-->
-[![Build Status](https://travis-ci.com/wellington197/Projeto-Awax.svg?branch=main)](https://travis-ci.com/wellington197/Projeto-Awax)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5edbd578-16d2-4345-9d6b-237420fafad8/deploy-status)](https://app.netlify.com/sites/project-awax-web/deploys)
+
 
 ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
 <img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
-<img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=orange&style=for-the-badge&logo=JAVASCRIPT"/>
 <img src="https://img.shields.io/static/v1?label=flexbox&message=metodologia&color=yellow&style=for-the-badge&logo=Flexbox"/>
 <img src="https://img.shields.io/static/v1?label=Github&message=plataforma&color=orange&style=for-the-badge&logo=GITHUB"/>
 <img src="https://img.shields.io/static/v1?label=visualstudio&message=plataforma&color=blue&style=for-the-badge&logo=VISUALSTUDIO"/>
-<img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
 
 </br>
 <div align="center">
-    <a href="https://project-awax-web.netlify.app/src/home.html" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
+    <a href="https://wellington197.github.io/Clone_Starbucks/" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
     </a>
 </div></br>
 
+<h1>Página do projeto</h1>
+<img src="./assets/images/images02.PNG"/></br></br>
+
 
 ### Conceitos aplicados no projeto
-- Criação do clone da LANDING PAGE;
-- Aplicação de conceitos em FLEXBOX;
+- Criação do clone da página inicial da Starbucks;
+- Aplicação de conceitos em FLEXBOX e Grid;
 - Estilização em HTML5 e CSS3;
 - Subindo projeto para GitHub;
-- Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
-
+- Efetuando o build e deploy via github actions;
 
 ### Atividades realizadas 
 
 - [X] Criação da página inicial
-- [X] Estilização via CSS3
+- [X] Estilização via CSS3 com Flexbox e Grid
 - [X] Aplicação de posicionamento dos elementos
 - [X] Criação de repositório no GitHub
 - [X] Edição de um projeto
@@ -58,10 +56,9 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
     * LINGUAGENS
         - HTML5
         - CSS3
-        - JavaScript
 
     * METODOLOGIA
-        - Flexbox
+        - Flexbox e Grid
         - RESPONSIVIDADE
         - 
 
@@ -69,21 +66,6 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
         - GitHub
         - GitPages
         - Visual Stúdio
-        - Travis
-
-### Conexão da Pipeline TRAVIS e HEROKU
-- Digite Heroku Login no seu terminal
-Será direcionado para página de Login do heroku. Basta acessar com sua conta.
-
-- Conecte o Travis CI com Token GitHub;
-travis login --pro --github-token xxxxxxxxxxxxxxx
-*Login Travis --pro CI - É necessário a instalação do Rub
-
-- Encriptar Secure Key do heroku;
-travis encrypt $(heroku auth:token) --add deploy.api_key --pro
-
-- Subindo projeto para GitHub;
-- Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
 
 ## Mentoria e Colaboração:
 
