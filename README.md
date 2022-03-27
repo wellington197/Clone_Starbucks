@@ -50,7 +50,7 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 ## Como está andamento do projeto.
 
 > Status do Projeto: Concluido :heavy_check_mark:</br>
-> Status do Projeto: Em desenvolvimento :warning:
+> Status do Projeto: Em desenvolvimento :heavy_check_mark:
 
 ## Linguagens e libs utilizadas :books:
     * LINGUAGENS
